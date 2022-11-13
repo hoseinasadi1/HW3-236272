@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "342403554168",
+    "project_id": "hellome-a45fe",
+    "storage_bucket": "hellome-a45fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342403554168:android:1d00a32cca4e9db26c068d",
+        "android_client_info": {
+          "package_name": "com.technion.android.hello_me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342403554168-drd5s8hsokqcpqa548mnak9ucg04ctcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpoDXf57w351qrhL5_Grtt32sGWmpjtv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342403554168-drd5s8hsokqcpqa548mnak9ucg04ctcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
