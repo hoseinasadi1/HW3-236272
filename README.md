@@ -1,16 +1,29 @@
-# hello_me
+Question 1:
+Widgets usually expose controllers to allow the developer granular control
+over certain features. You’ve already used one when you implemented
+TextFields in the previous assignment (Remember?).
+Read this thread and then go to snapping_sheet’s documentation.
+Answer: What class is used to implement the controller pattern in this library?
+What features does it allow the developer to control?
 
-A new Flutter project.
+Answer 1:
+The SnappingSheetController class is used to implement the controller pattern in the library . It allows the developer to control the snap positions of the snapping sheet, it also has the ability to change the snap position by snapToPosition.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Question 2:
+The library allows the bottom sheet to snap into position with various different
+animations. What parameter controls this behavior? 
 
-A few resources to get you started if this is your first Flutter project:
+Answer 2:
+The parameter that allows this behavior is snappingCurve and it comes with other auxiliary parameters such as positionPixel, snappingDuration, positionFactor, etc..
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Question 3:
+[This question does not directly relate to the previous ones] Read the
+documentation of InkWell and GestureDetector. Name one advantage of
+InkWell over the latter and one advantage of GestureDetector over the first
+
+Answer 3:
+GestureDetector's advantage over Inkwell: It offers a more broad set of gesture events (like dragging), and that it doesn't need to have a material ancestor.
+
+Inkwell's advantage over GestureDetector: The advantage is that Inkwell is a rectangle area of Material that responds to ink splashes, so it has effects such as ripple effect tap.
